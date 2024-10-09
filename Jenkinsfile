@@ -9,7 +9,7 @@ pipeline{
         stage("clone repo")
         {
             steps{
-                git branch:'main',url:'https://github.com/Shabila-khan/Jenkins-practice.git'
+                git branch:'main',url:'https://github.com/Shabila-khan/practice-jenkins.git'
             }
         }
         //install dependencies
